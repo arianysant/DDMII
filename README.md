@@ -4,7 +4,7 @@ GRUPOS 2022:
 
 TABELAS:
 
-01:  https://arianysant.github.io/DDMII/tabelas/tabela04.html
+01:  https://arianysant.github.io/DDMII/tabelas/tabela01.html
 
 02:  https://arianysant.github.io/DDMII/tabelas/tabela02.html
 
