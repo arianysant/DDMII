@@ -1,0 +1,115 @@
+:root {
+    --Vinho-Cor: #990e38;
+    --Branco-Cor: #fff;
+    --Preto-Cor: #000;
+ 
+}
+
+/*  FONTE EXTERNA DAFONTE*/
+@font-face {
+    font-family:'cup';
+    src: url('font/AdiCupQ2022.ttf') format('truetype');
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: var(--Vinho-Cor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    margin-top: 1%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 200px;
+    min-height: 30vh;
+    background-position: calc(0% - 20px);;
+    background-image: url(img/quatar.gif);
+    background-repeat: no-repeat;
+}
+
+
+.logo {
+    width: 10%;
+    margin: 0%;
+
+}
+
+.container {
+    width: 90%;
+    margin-top: 1%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    gap: 1%;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    transition: transform 0.2s ease-in-out; /* Transição suave para o efeito hover */
+}
+
+.grupo:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do grupo em 5% ao passar o mouse */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Adiciona uma sombra suave */
+}
+
+.grupo {
+    width: 90%;
+    padding: 3%;
+    background-color: var(--Branco-Cor);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nome {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'cup';
+    color: #990e38;
+}
+
+.paises {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+
+.pais {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.bandeira {
+    width: 25%;
+    padding: 1%;
+}
+
+.footer a{
+    color: white;
+    font-family: 'cup';
+}
